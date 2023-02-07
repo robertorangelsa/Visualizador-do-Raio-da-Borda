@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.caixa { 
+    width: 200px; 
+    height: 200px; 
+    background-color: lightgray; 
+    border: solid black 2px; 
+    border-radius: 0px; 
+    text-align: center; 
+  } 
+  
