@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* Define as características padrões da caixa */
 .caixa { 
     width: 200px; 
     height: 200px; 
