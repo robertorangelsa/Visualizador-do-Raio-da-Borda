@@ -13,7 +13,7 @@ alterar.addEventListener("click", function() {
   /* Concatena os valores dos inputs em uma string, separada por espaço, para usar como valor da propriedade border-radius */
   const borderRadius = `${valorSupEsq.value}px ${valorSupDir.value}px ${valorInfEsq.value}px ${valorInfDir.value}px`;
   /* Aplica a string concatenada como valor da propriedade border-radius na div "caixa" */
-  caixa.style.borderRadius = bo/* Insere o valor da propriedade border-radius no input "cssResultante" */rderRadius;
+  caixa.style.borderRadius = borderRadius;
   /* Insere o valor da propriedade border-radius no input "cssResultante" */
   cssResultante.value = `border-radius: ${borderRadius};`; 
 });
